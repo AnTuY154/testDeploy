@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ToDoList from'./components/ToDoList';
 
-function App() {
+function App(){
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <ToDoList /> 
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -21,6 +23,7 @@ function App() {
       </header>
     </div>
   );
-}
+  }
+
 
 export default App;
